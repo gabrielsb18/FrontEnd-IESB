@@ -1,13 +1,37 @@
 ![image](https://github.com/gabrielsb18/Projeto-de-Interface-IESB/blob/master/IESB_banner.jpg)
 
-# Repósitorio Construção FrontEnd-IESB
-Este repositório foi criado com o objetivo de armazenar e organizar os códigos desenvolvidos durante as aulas e atividades práticas da disciplina.
+# Construção de Frontend
 
-## Estrutura do Repositório
-O repositório está dividido em duas principais seções:
+Repositório criado para as aulas teóricas e atividades práticas da disciplina de Construção de Frontend.
 
-### 1. Aulas
-Nesta pasta, você encontrará os códigos referentes às aulas expositivas. São exemplos práticos, demonstrações e implementações discutidas durante as sessões teóricas.
+## Organização do Repositório
 
-### 2. Práticas
-Aqui estão armazenados os códigos correspondentes às atividades práticas. Essas práticas visam fortalecer os conceitos aprendidos em sala, proporcionando oportunidades para aplicação e exercício das habilidades adquiridas.
+Este repositório está organizado da seguinte forma:
+- **aulas/**: Pasta que contém os códigos das aulas teóricas.
+- **praticas/**: Pasta que contém os códigos das atividades práticas.
+
+## Comandos Básicos do NPM
+
+Aqui estão alguns comandos básicos do NPM (Node Package Manager) que podem ser úteis durante o desenvolvimento de aplicações frontend.
+
+1. Criar um Projeto Node
+```shell
+npm init -y
+```
+2. Instalar um Pacote no Projeto Node
+```shell
+npm install nome-do-pacote
+npm install --save-dev nome-do-pacote # instala como dependência de desenvolvimento
+```
+3. Desinstalar um Pacote do Projeto Node
+```shell
+npm uninstall nome-do-pacote
+```
+4. Executar um Projeto Node
+```shell
+npm start
+```
+5. Executar um script do Projeto Node
+```shell
+npm run nome-do-script
+```
