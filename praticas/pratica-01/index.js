@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/plain'); // Define o tipo de conteúdo como texto
   res.end('Teste - 2 Semestre'); // Envia a resposta
 });
-
+6
 // Define a porta em que o servidor irá escutar
 const PORT = 3000;
 server.listen(PORT, () => {
